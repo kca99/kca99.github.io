@@ -20,7 +20,7 @@ class App extends Component {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla suscipit turpis sed placerat. In vestibulum auctor dictum. Aenean vel est at tellus molestie faucibus. Mauris consectetur sagittis est nec efficitur. Nulla facilisi. Pellentesque a malesuada neque, sed maximus tortor. Mauris condimentum dictum arcu, eu rhoncus nunc finibus et. Donec interdum eget libero ut finibus. Suspendisse at iaculis nisi. Sed consequat dui eu ante gravida, eu placerat elit varius. Donec porta placerat risus, non vulputate diam auctor ut. Morbi egestas ex sit amet nunc fermentum, non volutpat eros sollicitudin. Suspendisse vitae eleifend sapien.</p>
         			</div>
         			<div className="col-sm-4">
-        			   <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" className="img-responsive"></img>
+        			   <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" className="img-responsive" alt="description"></img>
         			</div>
             </div>
       			<div className="col-sm-12">
