@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto:500');
 					.st0{fill:#66CCFF;}
-.st1{fill:#202020;}
+.st1{fill:#202020;
+}
 .st2{fill:none;}
 .st3{font-family: 'Roboto', sans-serif;}
 .st4{font-size:24px;}
@@ -30,5 +31,35 @@ img{
 }
 
 #link{
-	text-decoration: none
+	text-decoration: none;
+
+}
+
+#topStrand {
+	transform-origin: 100% 50%;
+	fill:black;
+	stroke-dasharray: 400;
+  animation: dance 5s infinite alternate;
+}
+#botStrand {
+	transform-origin: 100% 50%;
+	fill:black;
+	stroke-dasharray: 400;
+  animation: dance 5s infinite alternate;
+}
+
+#nucleotide{
+	transform-origin: 100% 50%;
+	fill:black;
+	stroke-dasharray: 400;
+  animation: dance 5s infinite alternate;
+}
+@keyframes dance {
+
+  100% {
+    transform: rotate(1deg);
+		transform:rotateX(35deg);
+
+
+  }
 }
