@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto:500');
+					.st0{fill:#66CCFF;}
+.st1{fill:#202020;
+}
+.st2{fill:none;}
+.st3{font-family: 'Roboto', sans-serif;}
+.st4{font-size:24px;}
+.st5{font-family: 'Quicksand', sans-serif;}
+.st6{font-size:60px;}
+
+html, body {
+	margin:0;
+	padding:0;
+	overflow:none;
+	background-color: #66CCFF;
+}
+svg {
+	top:0; bottom:0; left:0; right:0;
+	background-color: #66CCFF;
+
+}
+
+p{
+	font-family: 'Quicksand'
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+#link{
+	text-decoration: none;
+
+}
+
+#topStrand {
+	transform-origin: 100% 50%;
+	fill:black;
+	stroke-dasharray: 400;
+  animation: dance 5s infinite alternate;
+}
+#botStrand {
+	transform-origin: 100% 50%;
+	fill:black;
+	stroke-dasharray: 400;
+  animation: dance 5s infinite alternate;
+}
+
+#nucleotide{
+	transform-origin: 100% 50%;
+	fill:black;
+	stroke-dasharray: 400;
+  animation: dance 5s infinite alternate;
+}
+@keyframes dance {
+
+  100% {
+    transform: rotate(1deg);
+		transform:rotateX(35deg);
+
+
+  }
+}
